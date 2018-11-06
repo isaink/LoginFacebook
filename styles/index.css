@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+}
+.facebook {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+
+}
+.main-area {
+
+}
+.center {
+
+}
+.login {
+
+}
+.feed{
+
+}
