@@ -1,0 +1,79 @@
+* {
+  font-family: sans-serif;
+  display: grid;
+  /* color: #3b3b3d; */
+}
+.main-container {
+  /* display: block; */
+  grid-template-columns: 17% 30.5% 5% 30.5% 17%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background-color: #edf0f6;
+}
+.header {
+  background-color: #3B5998;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: absolute;
+  grid-column: 2;
+  grid-row: 1;
+
+}
+.logo {
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+
+}
+.inHeader{
+  grid-column: 4;
+  color: white;
+  margin-right: 70px;
+}
+input {
+  height: 15px;
+  margin: 10px;
+}
+.input1 {
+  grid-column-start: 4 ;
+  grid-row: 2;
+}
+.input2 {
+  grid-column-start: 5 ;
+  grid-row: 2;
+}
+label {
+  margin-top:10px;
+  margin-left: 10px;
+  font-size: 10.9px;
+}
+.content {
+  color: #3b3b3d;
+  grid-template-columns: repeat(4, 25% [col-start]);
+}
+.lside {
+  margin-top: 30px;
+  grid-column: 2 ;
+  grid-row: 3;
+}
+.box1 {
+  grid-row: 2;
+  border-color: white
+}
+.box2 {
+  grid-row: 3;
+  border-color: white
+}
+.box3 {
+  grid-row: 4;
+  border-color: white
+}
+h2 {
+  grid-row: 1;
+}
+.rside {
+  grid-column: 3;
+  grid-row: 3;
+
+}
+img, p {
+  grid-row: 1
+}
